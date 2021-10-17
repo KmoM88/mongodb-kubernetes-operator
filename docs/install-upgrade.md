@@ -169,6 +169,7 @@ Make sure you run commands in the correct namespace.
       kind: MongoDBCommunity
       ```
       If you upgrade from pre-0.3.0 you need to also add the field spec.users[n].scramCredentialsSecretName for each resource. This will be used to determine the name of the generated secret which stores MongoDB user credentials. This field must comply with DNS-1123 rules (see https://kubernetes.io/docs/concepts/overview/working-with-objects/names/).
+   
    b. Plan a downtime.
 2. Out with the old
 
